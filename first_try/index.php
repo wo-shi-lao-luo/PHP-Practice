@@ -38,3 +38,30 @@ $out .= " PHP";
 echo $out.'<br>';
 ?>
 <p>done</p>
+<h1>
+	Now casting
+</h1>
+<?php 
+echo "a".True."B"."<br>";
+// a1B
+echo "a".False."B";
+// aB
+ ?>
+
+<h1>
+	Try strpos
+</h1>
+<?php 
+$string = "Hello PHP";
+$pos = strpos($string, "PHP");
+echo "$pos"."<br>";
+$pos1 = strpos($string, "hahahahha");
+echo "$pos1"."empty";
+if ($pos == 0) {
+	print("ok");
+	echo "ok";
+} else {
+	print("not ok");
+	// echo "not ok";'
+}
+ ?>}
