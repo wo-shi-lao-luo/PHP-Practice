@@ -56,12 +56,40 @@ $string = "Hello PHP";
 $pos = strpos($string, "PHP");
 echo "$pos"."<br>";
 $pos1 = strpos($string, "hahahahha");
-echo "$pos1"."empty";
+echo "$pos1"."empty<br><br>";
+print "$pos1"."empty2<br><br>";
 if ($pos == 0) {
-	print("ok");
+	print "ok";
 	echo "ok";
 } else {
-	print("not ok");
+	print "not ok";
 	// echo "not ok";'
 }
- ?>}
+ ?>
+<h1>
+    Try array
+</h1>
+<?php
+$stuff = array("haha" => "dandan", "xiaogao" => "laoluo");
+echo ("<pre><br>");
+
+echo ("print<br>");
+print $stuff;
+echo ("<br><br>");
+
+echo ("print_r<br>");
+print_r($stuff);
+echo ("<br><br>");
+
+echo ("var_dump<br>");
+var_dump($stuff);
+echo ("<br>");
+
+echo ("for loop<br>");
+foreach($stuff as $a => $b) {
+    echo ("Key = ".$a."<br>"."Value = ".$b."<br>");
+}
+echo ("<br><br>");
+
+echo ("</pre><br>")
+?>

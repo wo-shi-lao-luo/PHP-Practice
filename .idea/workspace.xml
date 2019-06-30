@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fb286d8-2321-4c0e-ad39-e82b9e01f5b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/WA HW3/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WA HW3/fail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_try/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/first_try/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WA HW3/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" lean-forward="true" selection-end-line="35" />
+            <state relative-caret-position="289">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="18" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/first_try/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -57,6 +65,7 @@
         <option value="$PROJECT_DIR$/WA HW3/check.php" />
         <option value="$PROJECT_DIR$/WA HW3/fail.php" />
         <option value="$PROJECT_DIR$/WA HW3/index.php" />
+        <option value="$PROJECT_DIR$/first_try/index.php" />
       </list>
     </option>
   </component>
@@ -93,6 +102,11 @@
             <path>
               <item name="PHP-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="PHP-Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PHP-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PHP-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="first_try" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PHP-Practice" type="b2602c69:ProjectViewProjectNode" />
@@ -138,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561847247779</updated>
-      <workItem from="1561847250185" duration="2094000" />
+      <workItem from="1561847250185" duration="3650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2094000" />
+    <option name="totallyTimeSpent" value="3650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -197,8 +211,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WA HW3/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" lean-forward="true" selection-end-line="35" />
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_try/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
         </state>
       </provider>
     </entry>
