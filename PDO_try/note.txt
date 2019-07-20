@@ -1,0 +1,17 @@
+SQL config:
+
+CREATE DATABASE misc;
+GRANT ALL ON misc.* TO 'pdo'@'localhost' IDENTIFIED BY 'pdo';
+GRANT ALL ON misc.* TO 'pdo'@'127.0.0.1' IDENTIFIED BY 'pdo';
+
+USE misc;
+
+CREATE TABLE user (
+	user_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+	name VARCHAR(120),
+	email VARCHAR(120),
+	password VARCHAR(120),
+	INDEX(email)
+)
+
+INSERT INTO .......
