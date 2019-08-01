@@ -1,31 +1,31 @@
 <?php 
-session_start();
+	session_start();
 
-if (isset($_POST['email']) && isset($_POST['pass'])) {
-	if (preg_match('/[@]/', $_POST['email'])) {
-		if ($_POST['pass'] == 'php123') {
-			$_SESSION['name'] = $_POST['email'];
-			error_log("Login success ".$_POST['email']);
-			header("Location: view.php");
-			return;
+	if (isset($_POST['email']) && isset($_POST['pass'])) {
+		if (preg_match('/[@]/', $_POST['email'])) {
+			if ($_POST['pass'] == 'php123') {
+				$_SESSION['name'] = $_POST['email'];
+				error_log("Login success ".$_POST['email']);
+				header("Location: view.php");
+				return;
+			}
+			else {
+				$_SESSION['error'] = "Incorrect password";
+				error_log("Login fail ".$_POST['pass']." $check");
+				header("Location: login.php");
+				return;
+			}
+
 		}
 		else {
-			$_SESSION['error'] = "Incorrect password";
-			error_log("Login fail ".$_POST['pass']." $check");
+			$_SESSION['error'] = "Email must have an at-sign (@)";
 			header("Location: login.php");
 			return;
 		}
-
 	}
-	else {
-		$_SESSION['error'] = "Email must have an at-sign (@)";
-		header("Location: login.php");
-		return;
-	}
-}
-// else {
-// 	echo "please type in email and password";
-// }
+	// else {
+	// 	echo "please type in email and password";
+	// }
  ?>
 
  <!DOCTYPE html>
