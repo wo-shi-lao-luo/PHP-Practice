@@ -39,7 +39,7 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<title>Delete</title>
+ 	<title>Delete 66bd939a</title>
  </head>
  <body>
  	<p>
@@ -50,7 +50,7 @@
  			echo ($row['model'].'"?<br>');
  		?>
  		<form method="POST">
- 			<input type="submit" name="delete" value="confirm">
+ 			<input type="submit" name="delete" value="Delete">
  		</form>
  	</p>
  </body>

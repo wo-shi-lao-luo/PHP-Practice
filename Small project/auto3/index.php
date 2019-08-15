@@ -7,7 +7,7 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<title>Index</title>
+ 	<title>Index 66bd939a</title>
  </head>
  <body>
  	<h1>
@@ -32,7 +32,7 @@
 	 				echo "No rows found<br><br>";
 	 			}
 	 			echo('<table border="1">'."<br>");
-				while ( $row = $stmt->fetch(PDO::FETCH_ASSOC) ) {
+				while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
 				    echo "<tr><td>";
 				    echo(htmlentities($row['make']));
 				    echo("</td><td>");

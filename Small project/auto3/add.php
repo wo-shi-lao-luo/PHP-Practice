@@ -34,7 +34,7 @@
 				$sql = "INSERT INTO autos (make, model, year, mileage) VALUES (:make, :model, :year, :mileage)";
 				$stmt = $pdo->prepare($sql);
 				$stmt->execute(array(':make' => $_POST['make'], ':model' => $_POST['model'], ':year' => $_POST['year'], ':mileage' => $_POST['mileage']));
-				$_SESSION['success'] = "Record inserted";
+				$_SESSION['success'] = "Record added";
 				header("Location: index.php");
 				return;
 			}
@@ -45,11 +45,11 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<title>Add ddbec3bd</title>
+ 	<title>Add 66bd939a</title>
  </head>
  <body>
  	<p>
- 		<h1>Add user here</h1>	
+ 		<h1>Add Auto here</h1>	
  		<form method='POST'>
  			<?php 
 				if ( isset($_SESSION['error']) ) {
