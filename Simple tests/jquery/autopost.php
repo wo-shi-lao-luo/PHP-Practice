@@ -1,6 +1,7 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <form id='target'>
 	<input type="text" name="one" value='hello there' style='vertical-align: middle;'>
-	<img src="spinner" src="spinner.gif" height="25" style="vertical-align: middle; display: none;">
+	<img id="spinner" src="spinner.gif" height="25" style="vertical-align: middle; display: none;">
 </form>
 <div id="result"></div>
 
@@ -11,7 +12,7 @@
 		var form = $('#target');
 		var txt = form.find('input[name="one"]').val();
 		window.console && console.log('Sending POST');
-		$.post('autopost.php', {'val': txt}, 
+		$.post('autoecho.php', {'val': txt}, 
 			function(data) {
 				window.console && console.log(data);
 				$('#result').empty().append(data);
